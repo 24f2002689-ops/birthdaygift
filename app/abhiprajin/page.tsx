@@ -16,23 +16,29 @@ const photos = [
   { src: '/mahi10.jpeg', caption: 'Always' },
 ];
 
-const LETTER = `Mahi da,
+const LETTER = `[ FROM PRAJIN ]
+happy birthday machii!! 2nd sem la unna first pathu yaaru da ivan loosu mari panran,ivan kooda la ethuku pesanum nu nenachen, ipo i cant image my college days without you, namma calls la ulunthu ulunthu siripen and was the most fun talks i ever had, nee kudukra advice la kevlama irunthalum unnoda caring intentions ennaku theriyum, unna mari oru chill and easy going person na pathuthu illa da, na usual ah yaarkodayum sanda poda maten but namma rendu perukum adikadi sanda varum, but even those fights made our bond stronger 💪. enna problem vanthalum ithey mari jolly ah iru da, we will always be there with you.. Happy 20 da chello 😘
 
-Where do we even start.
-
-You walked into our lives and somehow made everything more chaotic, more fun, and weirdly — more meaningful. That's a rare quality, bro. Most people add noise. You added something different.
-
-From Prajin: You're the guy I didn't expect to become this close with but here we are. Every memory from this year has you in it somewhere. Thanks for being real when it mattered.
-
-From Abhi: Mahi — the amount of times you've made me actually laugh out loud in the most boring situations is criminal. You're the energy in the room. Don't ever lose that.
-
-Together we're saying this: You deserve every good thing. Every laugh, every win, every random good day that hits different. You deserve to be celebrated — properly.
-
-So here we are. Doing exactly that.
-
-Happy Birthday, da. 🔥
-
-– Abhi & Prajin`;
+[ FROM ABHI ]
+Happy Birthday da Mahendran!
+3rd sem la start aana namma friendship ippo ivlo close ah pogumnu appo nenaikave illa 
+Namma moonu perum serndhaale oru thani comedy track start aagidum 
+Andha comedy track oda main nee dhaan da
+Unna kalaaikama oru naal kooda complete aagathu 
+Enakku nee just friend illa oru brother madhiri 
+Un kooda sanda poduven, unna torture pannuven, kalaaipen
+Aana edhavadhu problem na support panna irupa nu theriyum. 
+Namma college life la neraya memories create pannirukom, innum neraya create pannanum 
+Serious ana moment la serious ah irundhaalum, 2 mins la comedy panniduva nee 
+Sometimes un comedy ku sirikanuma illa unna adikanuma nu theriyadhu 
+But that's literally YOU, and that's why you're special to us.
+Namma friendship ippadiye end varaikum continue aaganum bro
+College mudinjadhukku apramum indha same fights, same laughs ellam irukanum
+Unakku nalla friends irukanga nu solla vendam… naanga rendu perum irukom nu sonnale podhum 
+Once again, Happiest Birthday my brother! ❤️
+Namma promise ah marandhuradha 🐄
+Stay the same crazy Mahendran forever! 🫂
+and cheers to many more years of our stupid memories! ❤️`;
 
 const videos = [
   { label: 'Video 1 — A memory', src: '/vid1.mp4' },

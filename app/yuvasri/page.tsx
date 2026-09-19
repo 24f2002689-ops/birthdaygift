@@ -10,22 +10,10 @@ const yuvasriPhotos = [
   { src: '/yuvasri4.jpeg', caption: 'The best of us' },
 ];
 
-const LETTER = `Hey Mahi,
+const LETTER = `Happy birthday to my lovely man I wish u go greater hights. epomae me and god will be by your side .eat well stay healthy, epomae sirichutu eru and make everyone around u happy as u do thats what my man does. cheers to 20 completing your teen ,keep rocking I have always seen u as my motivation,u have never left me alone at my low times . It's your 3rd birthday we are celebrating together every birthday beside me i will make sure it is something special. Miss that kuti mahi who I saw in school uniform a caring soul. I really wana thank you for being with me at all situations u were the reason I smiled every day u have always been my backbone guiding me all way. ❤️
 
-I didn't really know what to write — which is funny because I always know what to say.
-
-But here's the thing: you're one of those people who make you want to actually try. Not just settle for a casual "happy birthday bro" — but actually mean it.
-
-You showed up this year in the best way. Even when things got chaotic — and trust me, they did — you were just... there. Solid. The kind of person who makes the room better just by being in it.
-
-I'm grateful you exist in my world, da. Genuinely.
-
-Here's to another year of you being absolutely unhinged and somehow making it look cool.
-
-Happy birthday, Mahi. 🎂
-
-With love,
-Yuvasri`;
+With all my love,
+Yuvasri ✨`;
 
 export default function YuvasriPage() {
   const [letterOpen, setLetterOpen] = useState(false);

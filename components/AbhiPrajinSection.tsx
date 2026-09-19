@@ -19,15 +19,38 @@ const squadPhotos = [
   { src: '/mahi10.jpeg', title: 'Day 1 Energy', caption: 'Still as crazy as day one' },
 ];
 
-const ABHI_PRAJIN_LETTER = [
-  "Yo Mahi da,",
-  "HAPPY 20TH BIRTHDAY MACHA! 🎂🔥",
-  "Where do we even start with you? You walked into our college lives and somehow turned every single ordinary day into a comedy show. Half the time we're laughing at your jokes, and the other half we're laughing at whatever unhinged stuff you just did.",
-  "From Prajin: 'Bro, you're the brother I never knew I needed. From sitting together on random benches in 1st sem to planning outings, fighting over canteen bills, and surviving 3rd sem exams together, you've been a rock solid friend. Thanks for always being there and keeping it 100% real.'",
-  "From Abhi: 'Mahi, you are genuinely the life of the group. The energy drops to zero when you're not around. Thanks for the endless roasts, the late-night talks, and always making sure everyone is having a good time.'",
-  "Turning 20 is a big milestone — you're officially leaving the teen years behind. But whatever happens, don't ever change your energy, your humor, or your kindness.",
-  "We got your back for life, da. Here's to twenty more years of madness, road trips, and conquering everything you set your mind to!",
-  "Much love and respect from your brothers."
+const PRAJIN_LETTER = [
+  "happy birthday machii!! 2nd sem la unna first pathu yaaru da ivan loosu mari panran,ivan kooda la ethuku pesanum nu nenachen, ipo i cant image my college days without you, namma calls la ulunthu ulunthu siripen and was the most fun talks i ever had, nee kudukra advice la kevlama irunthalum unnoda caring intentions ennaku theriyum, unna mari oru chill and easy going person na pathuthu illa da, na usual ah yaarkodayum sanda poda maten but namma rendu perukum adikadi sanda varum, but even those fights made our bond stronger 💪. enna problem vanthalum ithey mari jolly ah iru da, we will always be there with you.. Happy 20 da chello 😘"
+];
+
+const ABHI_LETTER = [
+  "Happy Birthday da Mahendran!",
+  "3rd sem la start aana namma friendship ippo ivlo close ah pogumnu appo nenaikave illa",
+  "Namma moonu perum serndhaale oru thani comedy track start aagidum",
+  "Andha comedy track oda main nee dhaan da",
+  "Unna kalaaikama oru naal kooda complete aagathu",
+  "Enakku nee just friend illa oru brother madhiri",
+  "Un kooda sanda poduven, unna torture pannuven, kalaaipen",
+  "Aana edhavadhu problem na support panna irupa nu theriyum.",
+  "Namma college life la neraya memories create pannirukom, innum neraya create pannanum",
+  "Serious ana moment la serious ah irundhaalum, 2 mins la comedy panniduva nee",
+  "Sometimes un comedy ku sirikanuma illa unna adikanuma nu theriyadhu",
+  "But that's literally YOU, and that's why you're special to us.",
+  "Namma friendship ippadiye end varaikum continue aaganum bro",
+  "College mudinjadhukku apramum indha same fights, same laughs ellam irukanum",
+  "Unakku nalla friends irukanga nu solla vendam… naanga rendu perum irukom nu sonnale podhum",
+  "Once again, Happiest Birthday my brother! ❤️",
+  "Namma promise ah marandhuradha 🐄",
+  "Stay the same crazy Mahendran forever! 🫂",
+  "and cheers to many more years of our stupid memories! ❤️"
+];
+
+const COMBINED_BOYS_LETTER = [
+  "📜 [ FROM PRAJIN ]",
+  ...PRAJIN_LETTER,
+  "",
+  "📜 [ FROM ABHI ]",
+  ...ABHI_LETTER
 ];
 
 export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
@@ -181,8 +204,8 @@ export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
         title="Joint Letter for Mahendran"
         sender="Abhi & Prajin"
         type="letter"
-        content={ABHI_PRAJIN_LETTER}
-        signature="Abhi & Prajin 🔥"
+        content={COMBINED_BOYS_LETTER}
+        signature="Prajin & Abhi 🔥"
       />
 
       {/* Photo Lightbox */}

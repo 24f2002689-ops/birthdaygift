@@ -82,7 +82,7 @@ export default function MasterBirthdayExperience() {
             {/* Top Badge */}
             <div className={`inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full glass border border-amber-400/30 text-amber-300 font-bold text-[11px] sm:text-xs uppercase tracking-wider transition-all duration-500 ${heroMounted ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'}`}>
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>September 19, 2026 · Level 20</span>
+              <span>September 20, 2026 · Level 20</span>
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             </div>
 

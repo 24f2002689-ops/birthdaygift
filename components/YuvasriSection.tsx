@@ -16,13 +16,12 @@ const yuvasriPhotos = [
 ];
 
 const YUVASRI_LETTER_CONTENT = [
-  "Dear Mahi,",
-  "Happy 20th Birthday! 🎂✨",
-  "I was trying to find the right words to write for this, because normal birthday wishes feel way too formal for the kind of bond we share.",
-  "You're honestly one of the most genuine, funny, and effortlessly comforting people in my life. Through all the college chaos, exam stress, random outings, and endless roasting sessions, having you around just makes everything lighter and way more fun.",
-  "Thank you for being someone I can always count on for honest advice, spontaneous laughs, and being the legend of our group. Never lose that contagious smile and the good energy you bring wherever you go.",
-  "I hope this 20th year brings you all the happiness, success, good food, and unforgettable adventures you truly deserve.",
-  "Keep shining, keep being unhinged, and enjoy your special day to the absolute fullest!"
+  "Happy birthday to my lovely man I wish u go greater hights.",
+  "epomae me and god will be by your side .eat well stay healthy, epomae sirichutu eru and make everyone around u happy as u do thats what my man does.",
+  "cheers to 20 completing your teen ,keep rocking I have always seen u as my motivation,u have never left me alone at my low times .",
+  "It's your 3rd birthday we are celebrating together every birthday beside me i will make sure it is something special.",
+  "Miss that kuti mahi who I saw in school uniform a caring soul.",
+  "I really wana thank you for being with me at all situations u were the reason I smiled every day u have always been my backbone guiding me all way. ❤️"
 ];
 
 export function YuvasriSection({ onNext }: YuvasriSectionProps) {

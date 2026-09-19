@@ -69,7 +69,7 @@ const timelineEvents = [
     date: 'Sept 2026',
     title: 'Still Going Strong',
     subtitle: 'And it\'s only getting better',
-    description: "Today — September 19, 2026 — Mahi's birthday. And here we are, still going stronger than ever. The friendship didn't fade, it leveled up. From strangers to family. This is for you, da. Happy birthday.",
+    description: "Today — September 20, 2026 — Mahi's birthday. And here we are, still going stronger than ever. The friendship didn't fade, it leveled up. From strangers to family. This is for you, da. Happy birthday.",
     emoji: '🎂',
     image: '/mahi9.jpeg',
     side: 'left',
