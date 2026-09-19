@@ -146,7 +146,7 @@ export function YuvasriSection({ onNext }: YuvasriSectionProps) {
         sender="Yuvasri"
         type="heart"
         content={YUVASRI_LETTER_CONTENT}
-        signature="Yuvasri ✨"
+        signature="Yuvasri"
       />
 
       {/* Photo Lightbox */}

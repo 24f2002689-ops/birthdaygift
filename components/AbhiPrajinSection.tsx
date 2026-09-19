@@ -19,11 +19,14 @@ const squadPhotos = [
   { src: '/mahi10.jpeg', title: 'Day 1 Energy', caption: 'Still as crazy as day one' },
 ];
 
-const PRAJIN_LETTER = [
-  "happy birthday machii!! 2nd sem la unna first pathu yaaru da ivan loosu mari panran,ivan kooda la ethuku pesanum nu nenachen, ipo i cant image my college days without you, namma calls la ulunthu ulunthu siripen and was the most fun talks i ever had, nee kudukra advice la kevlama irunthalum unnoda caring intentions ennaku theriyum, unna mari oru chill and easy going person na pathuthu illa da, na usual ah yaarkodayum sanda poda maten but namma rendu perukum adikadi sanda varum, but even those fights made our bond stronger 💪. enna problem vanthalum ithey mari jolly ah iru da, we will always be there with you.. Happy 20 da chello 😘"
+const PRAJIN_PARAGRAPHS = [
+  "HAPPY BIRTHDAY MACHII!! 🥳",
+  "2nd sem la unna first pathu, Yaaru da ivan, loosu maari panran, ivan kooda la ethuku pesanum? nu nenachen. Ipo I CAN’T IMAGINE MY COLLEGE DAYS WITHOUT YOU da. Namma calls la ulunthu ulunthu siripom, and honestly, those were some of the most fun talks I’ve ever had. Nee kudukra advice la kevlama irunthalum, unnoda caring intentions ennaku theriyum da, always you want me to be better, Even I always want the best for you.",
+  "Unna maari oru chill and easy-going person na pathadhe illa da. Naan usual-ah yaarkodayum sanda poda maaten, but namma rendu perukum adikadi sanda varum 😂. But even those fights somehow made our bond stronger 💪. Enna problem vandhaalum ithey maari JOLLY AH IRU DA. We’ll always be there for you.",
+  "HAPPY 20 DA CHELLO ❤️😘"
 ];
 
-const ABHI_LETTER = [
+const ABHI_PARAGRAPHS = [
   "Happy Birthday da Mahendran!",
   "3rd sem la start aana namma friendship ippo ivlo close ah pogumnu appo nenaikave illa",
   "Namma moonu perum serndhaale oru thani comedy track start aagidum",
@@ -45,12 +48,21 @@ const ABHI_LETTER = [
   "and cheers to many more years of our stupid memories! ❤️"
 ];
 
-const COMBINED_BOYS_LETTER = [
-  "📜 [ FROM PRAJIN ]",
-  ...PRAJIN_LETTER,
-  "",
-  "📜 [ FROM ABHI ]",
-  ...ABHI_LETTER
+const BOYS_SECTIONS = [
+  {
+    from: 'Prajin',
+    fontFamily: "'Patrick Hand', cursive, sans-serif",
+    fontSize: '1.25rem',
+    textColor: '#e0e7ff',
+    paragraphs: PRAJIN_PARAGRAPHS,
+  },
+  {
+    from: 'Abhirami (Abhi)',
+    fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
+    fontSize: '0.98rem',
+    textColor: '#f1f5f9',
+    paragraphs: ABHI_PARAGRAPHS,
+  },
 ];
 
 export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
@@ -69,7 +81,7 @@ export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
           Abhi & Prajin&apos;s Vault
         </h2>
         <p className="text-white/60 text-xs sm:text-sm max-w-md mx-auto">
-          Our joint letter to Mahi, the trio video archives, and memories.
+          Our personal letters to Mahi, trio video archives, and memories.
         </p>
       </div>
 
@@ -88,15 +100,15 @@ export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
 
           <div className="space-y-0.5">
             <h3 className="text-lg sm:text-xl font-bold text-white group-hover:text-violet-300 transition-colors">
-              Open Abhi & Prajin&apos;s Letter ✉️
+              Open Prajin & Abhi&apos;s Letters ✉️
             </h3>
             <p className="text-xs text-violet-200/70">
-              Tap to open and read our joint letter
+              Tap to open and read our personal messages
             </p>
           </div>
 
           <span className="px-4 py-1.5 rounded-full bg-violet-500/20 border border-violet-500/40 text-violet-300 text-xs font-semibold uppercase tracking-wider group-hover:bg-violet-600 group-hover:text-white transition-all">
-            Read Joint Letter 🔥
+            Read Personal Letters 🔥
           </span>
         </div>
       </div>
@@ -201,11 +213,11 @@ export function AbhiPrajinSection({ onNext }: AbhiPrajinSectionProps) {
       <LetterModal
         isOpen={isLetterOpen}
         onClose={() => setIsLetterOpen(false)}
-        title="Joint Letter for Mahendran"
-        sender="Abhi & Prajin"
+        title="Personal Messages for Mahendran"
+        sender="Prajin & Abhi"
         type="letter"
-        content={COMBINED_BOYS_LETTER}
-        signature="Prajin & Abhi 🔥"
+        sections={BOYS_SECTIONS}
+        signature="Prajin & Abhi"
       />
 
       {/* Photo Lightbox */}
